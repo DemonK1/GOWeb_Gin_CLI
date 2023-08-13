@@ -50,10 +50,11 @@ type RedisConfig struct {
 
 // 使用 viper 管理配置
 func InIt() (err error) {
-	viper.SetConfigName("config") // 指定配置文件名称(不需要带后缀)
-	viper.SetConfigType("yaml")   // 指定配置文件类型
-	viper.AddConfigPath(".")      // 指定查找配置文件路径(这里使用相对路径)
-	err = viper.ReadInConfig()    // 读取配置信息
+	viper.SetConfigFile("config.yaml") // 指定配置文件(包括文件名与类型)
+	// viper.SetConfigName("config") // 指定配置文件名称(不需要带后缀) 有重复名称 不是与下面type搭配使用的
+	// viper.SetConfigType("yaml")   // 指定配置文件类型 (专用于从远程配置信息时指定配置)
+	viper.AddConfigPath(".")   // 指定查找配置文件路径(这里使用相对路径)
+	err = viper.ReadInConfig() // 读取配置信息
 	if err != nil {
 		// 读取配置信息失败
 		fmt.Printf("viper.ReadInConfig() failed err: %v\n", err)
