@@ -7,4 +7,6 @@
 
 链接数据库的 sqlx 包: github.com/jmoiron/sqlx
 
-MySQL Redis
+监控文件变化的库: github.com/fsnotify/fsnotify
+
+数据库: MySQL Redis
