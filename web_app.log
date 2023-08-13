@@ -1,0 +1,16 @@
+{"level":"DEBUG","time":"2023-08-13T15:27:23.663+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:27:23.693+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:29:06.210+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:29:06.230+0800","caller":"mysql/mysql.go:29","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:36:21.476+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:36:21.506+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:36:53.935+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:36:53.958+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:38:31.002+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:38:31.024+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:38:48.707+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T15:38:48.727+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed","error":"dial tcp: lookup tcp/%!s(int=3306): getaddrinfow: The specified class was not found."}
+{"level":"DEBUG","time":"2023-08-13T15:40:39.488+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"DEBUG","time":"2023-08-13T16:51:21.041+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-13T16:51:28.737+0800","caller":"02-GO_Web_CLI/main.go:72","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-13T16:51:28.738+0800","caller":"02-GO_Web_CLI/main.go:81","msg":"Server exiting"}
