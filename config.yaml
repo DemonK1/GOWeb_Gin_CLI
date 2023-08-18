@@ -1,7 +1,7 @@
-app:
-  name: "GO_Web_CLI"
-  mode: "dev"
-  port: 8080
+name: "GO_Web_CLI"
+mode: "dev"
+version: "v0.0.1"
+port: 8080
 log:
   level: "debug"
   filename: "web_app.log"
@@ -9,15 +9,15 @@ log:
   max_backups: 7
 mysql:
   host: "127.0.0.1"
-  port: 3306
   user: "root"
-  password: "youpassword"
+  password: "root"
   dbname: "gin_demo01"
+  port: 3306
   max_open_conns: 200
   max_idle_conns: 50
 redis:
   host: 127.0.0.1
-  port: 6379
   password: ""
+  port: 6379
   db: 0
   pool_size: 100

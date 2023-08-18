@@ -20,3 +20,8 @@
 {"level":"DEBUG","time":"2023-08-13T22:33:25.845+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
 {"level":"INFO","time":"2023-08-13T22:33:33.017+0800","caller":"02-GO_Web_CLI/main.go:72","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-08-13T22:33:33.017+0800","caller":"02-GO_Web_CLI/main.go:81","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-13T23:33:50.136+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"ERROR","time":"2023-08-13T23:33:50.183+0800","caller":"mysql/mysql.go:28","msg":"connect DB failed","error":"Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2023-08-13T23:34:04.947+0800","caller":"02-GO_Web_CLI/main.go:36","msg":"logger init success..."}
+{"level":"INFO","time":"2023-08-13T23:34:14.992+0800","caller":"02-GO_Web_CLI/main.go:72","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-13T23:34:14.992+0800","caller":"02-GO_Web_CLI/main.go:81","msg":"Server exiting"}
